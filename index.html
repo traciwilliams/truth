@@ -6,71 +6,90 @@
 
  
     <title>Truth Communications</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
   </head>
   <body>
-
-	<header>
-		<img src="images/truthlogo.jpg">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">Client Work</a></li>
-			<li><a href="#">Contact Us</a></li>
-		</ul>
-		<img src="images/lightbulb.jpg">
-	</header>
-
-	<section id="aboutus">
-		<h1>About Us</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar, luctus nunc quis, porttitor libero. Nulla tempor at mi et gravida. Donec non urna diam. Vivamus condimentum magna scelerisque eget.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar, luctus nunc quis, porttitor libero. Nulla tempor at mi et gravida. Donec non urna diam. Vivamus condimentum magna scelerisque eget. </p>
-	</section>
-	
-	<section id="whatwedo">
-		<h1>What We Do</h1>
-			<div class="container">
-				<div class="box">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
-				</div>
-				
-				<div class="box">
-				<i class="fa fa-cloud"></i>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
-				</div>
-
-				<div class="box">
-				<i class="fa fa-cloud"></i>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
-				</div>
-
-				<div class="box">
-				<i class="fa fa-cloud"></i>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
-				</div>
-			</div>
-	</section>		
-
-	<section id="contactus">
-		<div id="map">MAP GOES HERE</div>
-
-		<form>
-			<label>First name:
-			<input type="text" name="firstname">
-			<label>Last name:
-			  <input type="text" name="lastname">			
-			<br>
-			<label>Email:
-			  <input type="email" name="email">	
-			<br>
-			<label>Comments:
-			<textarea name="comments" rows="10" cols="30">
+	<div class="wrapper">
+		<header>
+			<img src="images/truthlogo.jpg" class="logo">
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Client Work</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>	
 			
-			</textarea>
-		</form>
+		</header>
+			
+		<section>
+			<div id="overlay">
+				<h1>Truth Communications</h1>
+				<h2>We bring your ideas to life</h2>
+				<button><a href="#">Client Work</a></button>
+				<button><a href="contactus">Contact Us</a></button>
+			</div>
+			<img src="images/header.jpg" class="rotatingpic">
+		</section>
 
-	</section>
+		<section id="aboutus">
+			<h2>About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar, luctus nunc quis, porttitor libero. Nulla tempor at mi et gravida. Donec non urna diam. Vivamus condimentum magna scelerisque eget.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar, luctus nunc quis, porttitor libero. Nulla tempor at mi et gravida. Donec non urna diam. Vivamus condimentum magna scelerisque eget. </p>
+		</section>
+		
+		<section id="whatwedo">
+			<h2>What We Do</h2>
+				<div class="flex-container">
+					<div class="box">
+					<i class="fa fa-cloud"></i>	
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
+					</div>
+					
+					<div class="box">
+					<i class="fa fa-cloud"></i>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
+					</div>
+
+					<div class="box">
+					<i class="fa fa-cloud"></i>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
+					</div>
+
+					<div class="box">
+					<i class="fa fa-cloud"></i>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac ante interdum, suscipit neque at, convallis augue. Ut non turpis pulvinar</p>
+					</div>
+				</div>
+		</section>		
+
+
+
+
+
+
+		<section id="contactus">
+			<h2>Contact Us</h2>
+				<div class="flex-container">
+					<div id="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11881.394410190647!2d-87.62836745!3d41.88535945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1510377412874" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<p>Truth Communications<br>P.O. Box 123<br>Chicago, IL 60606</p>
+					</div><!--flex-container-->
+					
+
+
+					
+					  <form action="/action_page.php">
+				        <input type="text" id="fname" name="firstname" placeholder="First name"><br>
+				        <input type="text" id="lname" name="lastname" placeholder="Last name"><br>
+				        <textarea id="subject" name="subject" placeholder="How can we help you?" style="height:200px"></textarea>
+				      	<button type="submit" value="Submit">Submit</button>
+					  </form>
+					
+				</div><!--flex-container-->		
+		</section>
 
 
 
@@ -80,8 +99,9 @@
 
 
 
-    <footer>
-      <p>Truth Communications, Copyright &copy; 2017</p>
-    </footer>
+	    <footer>
+	      <p>Truth Communications, Copyright &copy; 2017</p>
+	    </footer>
+	</div><!--wrapper-->
   </body>
 </html>
