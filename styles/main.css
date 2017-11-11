@@ -8,13 +8,13 @@ body {
 .wrapper {
 	width: 1000px;
 	margin: auto;
-	background-color: coral;
+	// background-color: coral;
 }
 
 .container {
 	width: 80%;
 	margin: auto;
-	background-color: green;
+	// background-color: green;
 	overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ ul {
 // header
 
 header {
-	background: red;
+	// background: red;
 	color: #ffffff;
 	padding-top: 30px;
   	min-height: 70px;
@@ -40,6 +40,7 @@ header {
 nav {
   float: right;
   margin-top: 10px;
+  font-family: 'Oxygen', sans-serif;
 }
 
 ul a {
@@ -62,19 +63,66 @@ li {
 }
 
 #overlay {
-	background-color: green;
+	// background-color: green;
 	position: absolute;
 	top: 150px;
 	left: 700px;
 }
 
+#aboutus,
+#whatwedo,
+#contactus {
+	padding-top: 40px;
+}
+
+
+
+
 h1 {
-	font-size: 220%;
+	font-family: 'Bungee', cursive;
+	color: white;
+	font-size: 180%;
 }
 
 h2 {
 	text-align: center;
+	font-family: 'Oxygen', sans-serif;
 }
+
+h3 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Oxygen', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'Oxygen', sans-serif;
+	padding: 10px 10px;
+}
+
+#byline {
+	margin-top: -20px;
+	text-align: left;
+
+}
+
+#life {
+	color: blue;
+}
+
+button {
+	font-family: 'Oxygen', sans-serif;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+button a {
+	text-decoration: none;
+	text-align: right;
+}
+
 
 .flex-container {
 	display: flex;
@@ -82,23 +130,35 @@ h2 {
 	justify-content: center;
 }
 
+// .box {
+// 	margin: 0 5px;
+// 	padding: 5px 10px;
+// } 
+
 #contactus {
 	width: 100%;
 	margin: auto;
-	background-color: grey;
+	// background-color: grey;
 }
 
 form {
 	padding-left: 50px;
 }
 
-input[type=text], select, textarea{
+input[type=text], 
+select, 
+textarea {
     width: 100%;
     padding: 12px;
+    font-family: 'Oxygen', sans-serif;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
+}
+
+footer {
+	font-family: 'Oxygen', sans-serif;
 }
 
 
