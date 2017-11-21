@@ -101,6 +101,8 @@ p {
 	padding: 10px 10px;
 }
 
+
+
 #byline {
 	margin-top: -20px;
 	text-align: left;
@@ -130,10 +132,18 @@ button a {
 	justify-content: center;
 }
 
-// .box {
-// 	margin: 0 5px;
-// 	padding: 5px 10px;
-// } 
+div h3 {
+	// margin: 0 5px;
+	// padding: 5px 10px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+// i.fa, 
+// i.fa-user-circle {
+// 	font-size: 150%;
+// 	text-align: center;
+// }
+ 
 
 #contactus {
 	width: 100%;
